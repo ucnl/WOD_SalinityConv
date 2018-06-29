@@ -6,12 +6,12 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("WOD_SalinityConv")]
-[assembly: AssemblyDescription("WOD salinity converter")]
+[assembly: AssemblyDescription("WOD salinity database converter")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Underwater comminucation & navigation laboratory, LLC")]
+[assembly: AssemblyCompany("Underwater communication & navigation laboratory")]
 [assembly: AssemblyProduct("WOD_SalinityConv")]
-[assembly: AssemblyCopyright("© 2017, Underwater comminucation & navigation laboratory, LLC")]
-[assembly: AssemblyTrademark("Underwater comminucation & navigation laboratory, LLC")]
+[assembly: AssemblyCopyright("Copyright © Underwater communication & navigation laboratory, 2017")]
+[assembly: AssemblyTrademark("UC&NL")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible 
