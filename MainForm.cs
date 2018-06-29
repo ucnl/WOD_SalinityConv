@@ -53,12 +53,12 @@ namespace WOD_SalinityConv
 
                         foreach (var item in data.Data)
                         {
-                            byte b = Convert.ToByte(Math.Round(127 * (item.Sal - minSal) / maxSal));
-
+                            byte b = Convert.ToByte(Math.Round(127 - 127 * (item.Sal - minSal) / (maxSal - minSal)));
+ 
                             latIdx = (int)Math.Round(-item.Lat + 89.5);
                             lonIdx = (int)Math.Round(item.Lon + 179.5);
 
-                            bm.SetPixel(lonIdx, latIdx, Color.FromArgb(b, b, b));                            
+                            bm.SetPixel(lonIdx, latIdx, Color.FromArgb(0, 0, b));                            
                         }
 
                         pBox.Image = bm;

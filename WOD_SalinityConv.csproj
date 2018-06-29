@@ -38,7 +38,7 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
-    <Reference Include="UCNLSalinity, Version=1.0.6253.41182, Culture=neutral, processorArchitecture=MSIL">
+    <Reference Include="UCNLSalinity, Version=1.0.6564.25096, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\UCNLSalinity\UCNLSalinity\bin\Release\UCNLSalinity.dll</HintPath>
     </Reference>
